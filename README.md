@@ -1,32 +1,56 @@
-# 🚀 Break Fix DevOps Labs
+# 🚀 Break → Fix Labs
 
-This repository documents real-world beginner-level DevOps issues I faced and solved while practicing:
+This repository documents real-world beginner-level technical issues 
+that I intentionally reproduced and fixed while learning.
+
+The focus is not just building projects.
+
+The focus is:
+
+Break → Understand → Debug → Fix → Document
+
+---
+
+## 🧠 What This Repository Covers
+
+I collect and solve real issues found on:
+
+- StackOverflow
+- GitHub Issues
+- ServerFault
+- Dev forums
+- Production-like scenarios
+
+Across multiple technologies:
 
 - 🐳 Docker
 - 🌐 NGINX
 - 🐧 Linux
 - ⚡ JavaScript (Node.js)
-
-The goal is simple:
-
-Break → Understand → Debug → Fix → Document.
+- ⚙️ System Services
+- 🔍 Networking basics
 
 ---
 
-## 🎯 Why This Repository?
+## 🎯 Purpose
 
-Instead of only building projects, I focus on:
+Instead of copying solutions, I:
 
-- Reproducing common StackOverflow issues
-- Understanding root causes
-- Learning service lifecycle
-- Practicing production-style debugging
-- Building strong fundamentals
+- Recreate the issue locally
+- Analyze logs and error messages
+- Understand root cause
+- Fix it step-by-step
+- Document what actually happened
 
-This repo is my debugging journal.
+This builds:
+
+- Debugging mindset
+- Service lifecycle understanding
+- Networking clarity
+- Confidence in production-style troubleshooting
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-Each issue is stored separately:
+Each issue is stored in a separate folder:
