@@ -1,0 +1,39 @@
+Run a Linux container using a Docker image
+
+Create and attach a bind mount (volume mapping) between host and container
+
+Create and use named Docker volumes
+
+Execute commands inside a running container (docker exec)
+
+Build a custom image using a Dockerfile
+
+Install software inside a container during image build
+
+Expose container ports and access service from host
+
+Run containers in detached mode and manage logs
+
+Create a multi-container setup using Docker Compose
+
+Connect multiple containers using a Docker network
+
+Share environment variables with containers
+
+Persist database data using Docker volumes
+
+Create a development environment container (Node/Python/etc.)
+
+Limit container CPU and memory resources
+
+Use .dockerignore to optimize image builds
+
+Debug container issues using logs and shell access
+
+Create multi-stage Docker builds for smaller images
+
+Connect container services to a host machine service
+
+Run containers with non-root users for security
+
+Deploy containers automatically using CI/CD pipeline (Docker-based deployment)
