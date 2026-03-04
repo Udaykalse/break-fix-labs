@@ -1,0 +1,19 @@
+# Ignore node_modules inside app folder
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+
+# Docker
+docker-data/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
