@@ -7,13 +7,14 @@ function TagInput() {
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
+      // let a ==
       setTags([...tags, inputValue]);
+      setInputValue("");
     }
   };
 
   const removeTag = (indexToRemove) => {
-    // TODO: Remove the tag at the given index
-    // Hint: Use filter to exclude the tag
+    setTags(tags.filter((tag, index) => index !== indexToRemove));
   };
 
   return (

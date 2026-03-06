@@ -37,3 +37,31 @@ Connect container services to a host machine service
 Run containers with non-root users for security
 
 Deploy containers automatically using CI/CD pipeline (Docker-based deployment)
+
+
+
+As a DevOps engineer in 2026, learn these 11 skills to stay relevant in this job market:
+
+1. Linux Fundamentals - processes, systemd, permissions, networking basics
+
+2. Networking - DNS, TCP/IP, HTTP/HTTPS, load balancers, TLS
+
+3. Cloud Basics - AWS/Azure/GCP core services, IAM, VPC, compute, storage
+
+4. Containers - Docker, image builds, registries, security best practices
+
+5. Kubernetes - deployments, services, ingress, autoscaling, debugging pods
+
+6. Infrastructure as Code - Terraform, state, modules, drift management
+
+7. CI/CD - GitHub Actions, GitLab CI, Jenkins, release pipelines
+
+8. Observability - logs, metrics, tracing, Prometheus, Grafana, OpenTelemetry
+
+9. Security - secrets, least privilege, RBAC, vulnerability scanning, hardening
+
+10. Reliability Engineering - SLOs, incident response, postmortems, capacity planning
+
+11. Automation & Scripting - Bash + Python, cron, system automation, APIs
+
+Stop collecting tools. Start mastering fundamentals.
