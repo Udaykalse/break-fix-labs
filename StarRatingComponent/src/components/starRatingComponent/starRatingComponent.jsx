@@ -13,7 +13,7 @@ function StarRatingComponent() {
   };
 
   const handleMouseLeave = () => {
-    setHoverRating(0);
+     setHoverRating(0);
   };
 
   return (
@@ -23,11 +23,13 @@ function StarRatingComponent() {
         {[1, 2, 3, 4, 5].map((star) => (
           <span
             key={star}
-            className={`star ${condition ? "filled" : ""}`}
+            className={star <= (hoverRating || rating) ? "star filled" : "star"}
             onClick={() => handleClick(star)}
             onMouseEnter={() => handleMouseEnter(star)}
             onMouseLeave={handleMouseLeave}
-          ></span>
+          >
+            {/* TODO: Show filled or empty star based on rating/hoverRating */}☆
+          </span>
         ))}
       </div>
       <p className="rating-text">Rating: {rating}/5</p>
