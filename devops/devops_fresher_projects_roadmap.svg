@@ -1,0 +1,152 @@
+
+<svg width="100%" viewBox="0 0 680 820">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text class="th" x="340" y="36" text-anchor="middle" font-size="16">DevOps fresher project roadmap</text>
+
+  <!-- Phase 1 -->
+  <g class="c-teal">
+    <rect x="30" y="58" width="620" height="34" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="79" text-anchor="middle">Phase 1 — Foundation (weeks 1–4)</text>
+  </g>
+
+  <!-- Row 1 boxes -->
+  <g class="node c-blue" onclick="sendPrompt('Give me a step-by-step guide to build a CI/CD pipeline project for my DevOps resume')">
+    <rect x="30" y="106" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="124" y="125" text-anchor="middle">CI/CD pipeline</text>
+    <text class="ts" x="124" y="143" text-anchor="middle">GitHub Actions + Docker</text>
+    <text class="ts" x="124" y="158" text-anchor="middle">deploy a web app</text>
+  </g>
+
+  <g class="node c-purple" onclick="sendPrompt('How do I build a Dockerized microservices project for DevOps resume?')">
+    <rect x="246" y="106" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="125" text-anchor="middle">Dockerize an app</text>
+    <text class="ts" x="340" y="143" text-anchor="middle">Multi-container setup</text>
+    <text class="ts" x="340" y="158" text-anchor="middle">Docker Compose + volumes</text>
+  </g>
+
+  <g class="node c-amber" onclick="sendPrompt('How to set up Linux server monitoring project for DevOps fresher resume?')">
+    <rect x="462" y="106" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="556" y="125" text-anchor="middle">Linux server setup</text>
+    <text class="ts" x="556" y="143" text-anchor="middle">SSH, firewall, cron jobs</text>
+    <text class="ts" x="556" y="158" text-anchor="middle">Bash automation scripts</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="340" y1="182" x2="340" y2="202" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Phase 2 -->
+  <g class="c-purple">
+    <rect x="30" y="208" width="620" height="34" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="229" text-anchor="middle">Phase 2 — Cloud & IaC (weeks 5–8)</text>
+  </g>
+
+  <!-- Row 2 boxes -->
+  <g class="node c-blue" onclick="sendPrompt('How to build an AWS infrastructure project using Terraform for DevOps fresher?')">
+    <rect x="30" y="256" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="124" y="275" text-anchor="middle">Terraform on AWS</text>
+    <text class="ts" x="124" y="293" text-anchor="middle">EC2, S3, VPC provisioning</text>
+    <text class="ts" x="124" y="308" text-anchor="middle">infra as code</text>
+  </g>
+
+  <g class="node c-teal" onclick="sendPrompt('How to deploy a Kubernetes project for entry-level DevOps resume?')">
+    <rect x="246" y="256" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="275" text-anchor="middle">Kubernetes cluster</text>
+    <text class="ts" x="340" y="293" text-anchor="middle">Minikube or kind locally</text>
+    <text class="ts" x="340" y="308" text-anchor="middle">deploy, scale, rollback</text>
+  </g>
+
+  <g class="node c-coral" onclick="sendPrompt('How to build a serverless DevOps project on AWS Lambda for resume?')">
+    <rect x="462" y="256" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="556" y="275" text-anchor="middle">Serverless deploy</text>
+    <text class="ts" x="556" y="293" text-anchor="middle">AWS Lambda + API Gateway</text>
+    <text class="ts" x="556" y="308" text-anchor="middle">triggered by S3/SQS</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="340" y1="332" x2="340" y2="352" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Phase 3 -->
+  <g class="c-coral">
+    <rect x="30" y="358" width="620" height="34" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="379" text-anchor="middle">Phase 3 — Monitoring & Security (weeks 9–12)</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g class="node c-amber" onclick="sendPrompt('How to build a Prometheus and Grafana monitoring project for DevOps resume?')">
+    <rect x="30" y="406" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="124" y="425" text-anchor="middle">Monitoring stack</text>
+    <text class="ts" x="124" y="443" text-anchor="middle">Prometheus + Grafana</text>
+    <text class="ts" x="124" y="458" text-anchor="middle">alerts + dashboards</text>
+  </g>
+
+  <g class="node c-purple" onclick="sendPrompt('How to add security scanning to a DevOps CI/CD pipeline project for resume?')">
+    <rect x="246" y="406" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="425" text-anchor="middle">DevSecOps pipeline</text>
+    <text class="ts" x="340" y="443" text-anchor="middle">Trivy + SAST scanning</text>
+    <text class="ts" x="340" y="458" text-anchor="middle">auto block on vuln</text>
+  </g>
+
+  <g class="node c-blue" onclick="sendPrompt('How to build a log aggregation ELK stack project for DevOps fresher resume?')">
+    <rect x="462" y="406" width="188" height="64" rx="8" stroke-width="0.5"/>
+    <text class="th" x="556" y="425" text-anchor="middle">Log aggregation</text>
+    <text class="ts" x="556" y="443" text-anchor="middle">ELK / Loki + Promtail</text>
+    <text class="ts" x="556" y="458" text-anchor="middle">centralized logging</text>
+  </g>
+
+  <!-- Arrow -->
+  <line x1="340" y1="482" x2="340" y2="502" class="arr" marker-end="url(#arrow)"/>
+
+  <!-- Capstone -->
+  <g class="c-blue">
+    <rect x="30" y="508" width="620" height="34" rx="8" stroke-width="0.5"/>
+    <text class="th" x="340" y="529" text-anchor="middle">Capstone — End-to-end project (week 13+)</text>
+  </g>
+
+  <g class="node c-teal" onclick="sendPrompt('Give me a complete end-to-end DevOps capstone project idea for fresher resume with full stack app, CI/CD, Kubernetes, monitoring, and IaC')">
+    <rect x="30" y="556" width="620" height="80" rx="10" stroke-width="0.5"/>
+    <text class="th" x="340" y="580" text-anchor="middle">Full DevOps pipeline for a real app</text>
+    <text class="ts" x="340" y="598" text-anchor="middle">Node/Python app → GitHub Actions CI/CD → Docker → Kubernetes (EKS/GKE)</text>
+    <text class="ts" x="340" y="614" text-anchor="middle">Terraform infra → Prometheus/Grafana monitoring → documented on GitHub</text>
+    <text class="ts" x="340" y="630" text-anchor="middle">Click to get a detailed project guide →</text>
+  </g>
+
+  <!-- Key skills strip -->
+  <text class="ts" x="340" y="666" text-anchor="middle" opacity="0.6">Key tools to show on resume</text>
+
+  <g class="c-gray">
+    <rect x="30" y="674" width="88" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="74" y="691" text-anchor="middle">Docker</text>
+  </g>
+  <g class="c-gray">
+    <rect x="126" y="674" width="88" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="170" y="691" text-anchor="middle">Kubernetes</text>
+  </g>
+  <g class="c-gray">
+    <rect x="222" y="674" width="88" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="266" y="691" text-anchor="middle">Terraform</text>
+  </g>
+  <g class="c-gray">
+    <rect x="318" y="674" width="88" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="362" y="691" text-anchor="middle">CI/CD</text>
+  </g>
+  <g class="c-gray">
+    <rect x="414" y="674" width="88" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="458" y="691" text-anchor="middle">AWS/GCP</text>
+  </g>
+  <g class="c-gray">
+    <rect x="510" y="674" width="140" height="26" rx="6" stroke-width="0.5"/>
+    <text class="ts" x="580" y="691" text-anchor="middle">Linux + Bash</text>
+  </g>
+
+  <!-- Free tier note -->
+  <text class="ts" x="340" y="730" text-anchor="middle" opacity="0.5">All projects can be done free — AWS Free Tier, GCP Free Credits, Minikube locally</text>
+
+  <!-- Click hint -->
+  <text class="ts" x="340" y="760" text-anchor="middle" opacity="0.45">Click any project card for a detailed guide</text>
+</svg>
